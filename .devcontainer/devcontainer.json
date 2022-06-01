@@ -1,0 +1,4 @@
+{
+  "image": "haskell:9.2",
+  "postCreateCommand": "cabal update"
+}
