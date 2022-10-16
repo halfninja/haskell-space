@@ -1,4 +1,11 @@
 {
-  "image": "haskell:9.2",
-  "postCreateCommand": "cabal update"
+  	"image": "haskell:9.2",
+	"onCreateCommand": ".devcontainer/onCreateCommand.sh",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"mogeko.haskell-extension-pack"
+			]
+		}
+	}
 }
